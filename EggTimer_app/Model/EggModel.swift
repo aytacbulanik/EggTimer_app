@@ -8,5 +8,6 @@
 import Foundation
 
 struct EggModel {
-    
+    var eggName : String
+    var eggTime : Int
 }
