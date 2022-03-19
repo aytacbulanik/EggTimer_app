@@ -8,5 +8,9 @@
 import Foundation
 
 struct EggBrain {
+    var egg : EggModel
     
+    func calculateEggTime() {
+        
+    }
 }
