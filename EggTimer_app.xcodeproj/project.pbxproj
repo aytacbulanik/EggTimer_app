@@ -13,6 +13,8 @@
 		B49AA20827E679D600833E14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B49AA20627E679D600833E14 /* Main.storyboard */; };
 		B49AA20A27E679DA00833E14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B49AA20927E679DA00833E14 /* Assets.xcassets */; };
 		B49AA20D27E679DA00833E14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B49AA20B27E679DA00833E14 /* LaunchScreen.storyboard */; };
+		B49AA21527E67A9500833E14 /* EggBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49AA21427E67A9500833E14 /* EggBrain.swift */; };
+		B49AA21827E67ACC00833E14 /* EggModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49AA21727E67ACC00833E14 /* EggModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		B49AA20927E679DA00833E14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B49AA20C27E679DA00833E14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B49AA20E27E679DA00833E14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B49AA21427E67A9500833E14 /* EggBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EggBrain.swift; sourceTree = "<group>"; };
+		B49AA21727E67ACC00833E14 /* EggModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EggModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		B49AA1FF27E679D600833E14 /* EggTimer_app */ = {
 			isa = PBXGroup;
 			children = (
+				B49AA21627E67AB100833E14 /* Model */,
 				B49AA20027E679D600833E14 /* AppDelegate.swift */,
 				B49AA20227E679D600833E14 /* SceneDelegate.swift */,
 				B49AA20427E679D600833E14 /* ViewController.swift */,
@@ -65,6 +70,15 @@
 				B49AA20E27E679DA00833E14 /* Info.plist */,
 			);
 			path = EggTimer_app;
+			sourceTree = "<group>";
+		};
+		B49AA21627E67AB100833E14 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B49AA21427E67A9500833E14 /* EggBrain.swift */,
+				B49AA21727E67ACC00833E14 /* EggModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +152,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B49AA21527E67A9500833E14 /* EggBrain.swift in Sources */,
 				B49AA20527E679D600833E14 /* ViewController.swift in Sources */,
 				B49AA20127E679D600833E14 /* AppDelegate.swift in Sources */,
 				B49AA20327E679D600833E14 /* SceneDelegate.swift in Sources */,
+				B49AA21827E67ACC00833E14 /* EggModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
