@@ -4,7 +4,6 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -24,12 +23,11 @@
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aYH-Ox-2ju">
                                                 <rect key="frame" x="0.0" y="0.0" width="404" height="269.5"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
                                             <constraint firstItem="aYH-Ox-2ju" firstAttribute="leading" secondItem="YUW-5h-LZT" secondAttribute="leading" id="1gI-wq-Noi"/>
                                             <constraint firstAttribute="bottom" secondItem="aYH-Ox-2ju" secondAttribute="bottom" id="J5J-ja-cvb"/>
@@ -54,7 +52,6 @@
                                                         </state>
                                                     </button>
                                                 </subviews>
-                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <constraints>
                                                     <constraint firstAttribute="trailing" secondItem="ftA-h1-QWK" secondAttribute="trailing" id="4K6-rD-DVz"/>
                                                     <constraint firstAttribute="bottom" secondItem="ftA-h1-QWK" secondAttribute="bottom" id="9sl-aw-OS9"/>
@@ -80,7 +77,6 @@
                                                         </state>
                                                     </button>
                                                 </subviews>
-                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <constraints>
                                                     <constraint firstItem="Oh1-dz-dLe" firstAttribute="top" secondItem="D36-4W-g11" secondAttribute="top" id="0Po-nc-TIA"/>
                                                     <constraint firstAttribute="bottom" secondItem="Oh1-dz-dLe" secondAttribute="bottom" id="0QA-2A-zm7"/>
@@ -106,7 +102,6 @@
                                                         </state>
                                                     </button>
                                                 </subviews>
-                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <constraints>
                                                     <constraint firstAttribute="trailing" secondItem="B5w-Ci-VIX" secondAttribute="trailing" id="07q-ke-WfP"/>
                                                     <constraint firstAttribute="trailing" secondItem="IfN-Uc-5bu" secondAttribute="trailing" id="AVd-8G-JlS"/>
@@ -127,7 +122,6 @@
                                                 <rect key="frame" x="0.0" y="133" width="404" height="4"/>
                                             </progressView>
                                         </subviews>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
                                             <constraint firstAttribute="trailing" secondItem="LwD-hf-fDP" secondAttribute="trailing" id="3D6-Ov-HZ3"/>
                                             <constraint firstItem="LwD-hf-fDP" firstAttribute="centerY" secondItem="QQI-Jf-L0M" secondAttribute="centerY" id="5kX-Z2-6Rk"/>
@@ -138,7 +132,7 @@
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.5884680282786634" green="0.86078917980194092" blue="0.84529470232997594" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Hzo-QL-Lqo" secondAttribute="bottom" id="Roz-H3-9xV"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Hzo-QL-Lqo" secondAttribute="trailing" constant="5" id="Ug9-6z-Rhm"/>
@@ -156,8 +150,5 @@
         <image name="hard_egg" width="287.5" height="366"/>
         <image name="medium_egg" width="288" height="363"/>
         <image name="soft_egg" width="287" height="365"/>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
     </resources>
 </document>
