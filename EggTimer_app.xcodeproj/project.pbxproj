@@ -60,11 +60,11 @@
 		B49AA1FF27E679D600833E14 /* EggTimer_app */ = {
 			isa = PBXGroup;
 			children = (
+				B4CC967527E7BE9900B4A9CC /* Controller */,
+				B4CC967427E7BE9100B4A9CC /* View */,
 				B49AA21627E67AB100833E14 /* Model */,
 				B49AA20027E679D600833E14 /* AppDelegate.swift */,
 				B49AA20227E679D600833E14 /* SceneDelegate.swift */,
-				B49AA20427E679D600833E14 /* ViewController.swift */,
-				B49AA20627E679D600833E14 /* Main.storyboard */,
 				B49AA20927E679DA00833E14 /* Assets.xcassets */,
 				B49AA20B27E679DA00833E14 /* LaunchScreen.storyboard */,
 				B49AA20E27E679DA00833E14 /* Info.plist */,
@@ -79,6 +79,22 @@
 				B49AA21727E67ACC00833E14 /* EggModel.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		B4CC967427E7BE9100B4A9CC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B49AA20627E679D600833E14 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B4CC967527E7BE9900B4A9CC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B49AA20427E679D600833E14 /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
